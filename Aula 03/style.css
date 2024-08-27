@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+a {/* A */
+    text-decoration: nome;
+    background-color: black;
+    color: chartreuse;
+    display: block; /* definir largura */
+    width: 100%; /* definir largura */
+    height: 50px; /* definir altura */
+    line-height: 50px;/* definir altura da linha */
+    text-align: center;/* alinhar texto no centro */
+    border-radius: 50px;
+    border: 3px double yellowgreen;
+margin: 10px 10px 10px; /* top->right->bottom->left
+margin: 10px 10px; *//* top e botton -> rigth e left */
+margin: 10px auto;
+}
+
+.linkrAbsolut:houver {
+    text-decoration: nome; /* remover linha dos links */
+    background-color: cornflowerblue;/* cor de fundo */
+    color: bisque;/* cor de fonte da (letra) */
+    display: block;/* block, inline, inline-block */
+    width: 100%;/* definir largura */
+    height: 50px;/* definir altura da linha */
+    line-height: 50px;/* definir altura da linha */
+    text-align: center;/* alinhar texto no centro */
+    margin: 10% auto;
+
+}
+.linkRelative:hover {
+    color: aqua;
+    background-color: cornsilk;/*  */
+    border: 2px solid dodgerblue;
+}
+a:hover {
+color: black;
+background-color: chartreuse;
+}
+
