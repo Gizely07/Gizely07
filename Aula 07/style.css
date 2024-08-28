@@ -1,0 +1,21 @@
+#conteinerFlex {
+    display: flex;
+    background-color: chartreuse;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;/* center - spac's */
+    flex-wrap: wrap;
+}
+
+#conteinerFlex div {
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    margin: 10px;
+    /* text-align: center;
+    line-height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
