@@ -1,0 +1,21 @@
+body {
+    background: dodgerblue;
+
+}
+main {
+    background: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5%;
+
+}
+h1, h2 {
+    text-align: center;
+}
+
+#imagem {
+    width: 30%;
+    height: 500px;
+    background: url("Imagen/Waffle\ Classico.jpg") no-repeat center center/cover;
+    margin: 0 auto;
+}
